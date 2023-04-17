@@ -1,0 +1,30 @@
+body {
+  color: #999;
+}
+
+img {
+  object-fit: contain;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+.hole {
+  /* display:block; */
+  display: flex;
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  width: 25%;
+  min-width: 150px;
+  min-height: 150px;
+  
+  border: 3px solid #999;
+}
+
